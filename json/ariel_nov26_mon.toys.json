@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "6a4bd8e58950c6848259361e"
+  },
+  "name": "Red Toy Car",
+  "info": "red toy car",
+  "category": "cars",
+  "img_url": "car1.jpg",
+  "price": 99
+},
+{
+  "_id": {
+    "$oid": "6a4bdf038950c6848259361f"
+  },
+  "name": "White Toy Car",
+  "info": "white toy car",
+  "category": "cars",
+  "img_url": "car2.jpg",
+  "price": 100
+},
+{
+  "_id": {
+    "$oid": "6a4bdf078950c68482593620"
+  },
+  "name": "BlueToy Car",
+  "info": "blue toy car",
+  "category": "cars",
+  "img_url": "car3.jpg",
+  "price": 101
+},
+{
+  "_id": {
+    "$oid": "6a4bdf0f8950c68482593621"
+  },
+  "name": "Green Toy Car",
+  "info": "green toy car",
+  "category": "cars",
+  "img_url": "car4.jpg",
+  "price": 102
+},
+{
+  "_id": {
+    "$oid": "6a4bdfb08950c68482593622"
+  },
+  "name": "Green spinner",
+  "info": "green spinner",
+  "category": "spinners",
+  "img_url": "spiner1.jpg",
+  "price": 30
+},
+{
+  "_id": {
+    "$oid": "6a4be0108950c68482593623"
+  },
+  "name": "Blue spinner",
+  "info": "blue spinner",
+  "category": "spinners",
+  "img_url": "spiner2.jpg",
+  "price": 31
+},
+{
+  "_id": {
+    "$oid": "6a4be0148950c68482593624"
+  },
+  "name": "White spinner",
+  "info": "white spinner",
+  "category": "spinners",
+  "img_url": "spiner3.jpg",
+  "price": 32
+},
+{
+  "_id": {
+    "$oid": "6a4be0188950c68482593625"
+  },
+  "name": "Black spinner",
+  "info": "black spinner",
+  "category": "spinners",
+  "img_url": "spiner4.jpg",
+  "price": 33
+},
+{
+  "_id": {
+    "$oid": "6a4be0b78950c68482593626"
+  },
+  "name": "Soccer Ball",
+  "info": "Soccer",
+  "category": "balls",
+  "img_url": "ball1.jpg",
+  "price": 51
+},
+{
+  "_id": {
+    "$oid": "6a4be0fc8950c68482593627"
+  },
+  "name": "BaseBall ball",
+  "info": "baseball",
+  "category": "balls",
+  "img_url": "ball2.jpg",
+  "price": 52
+},
+{
+  "_id": {
+    "$oid": "6a4be0ff8950c68482593628"
+  },
+  "name": "Basketball ball",
+  "info": "baskeball",
+  "category": "balls",
+  "img_url": "ball3.jpg",
+  "price": 53
+},
+{
+  "_id": {
+    "$oid": "6a4be1028950c68482593629"
+  },
+  "name": "Football Ball",
+  "info": "foorball",
+  "category": "balls",
+  "img_url": "ball4.jpg",
+  "price": 54
+},
+{
+  "_id": {
+    "$oid": "6a4be1d88950c6848259362a"
+  },
+  "name": "Chess game",
+  "info": "chess",
+  "category": "boxgames",
+  "img_url": "boardgames1.jpg",
+  "price": 200
+},
+{
+  "_id": {
+    "$oid": "6a4be21d8950c6848259362b"
+  },
+  "name": "Monopol",
+  "info": "monopol",
+  "category": "boxgames",
+  "img_url": "boardgames2.jpg",
+  "price": 210
+},
+{
+  "_id": {
+    "$oid": "6a4be2228950c6848259362c"
+  },
+  "name": "Blackgammon",
+  "info": "blackgammon",
+  "category": "boxgames",
+  "img_url": "boardgames3.jpg",
+  "price": 220
+},
+{
+  "_id": {
+    "$oid": "6a4be2268950c6848259362d"
+  },
+  "name": "Trivia",
+  "info": "trivia",
+  "category": "boxgames",
+  "img_url": "boardgames4.jpg",
+  "price": 230
+}]
