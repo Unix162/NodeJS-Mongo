@@ -17,9 +17,9 @@ exports.ToyModel = mongoose.model("toys",schema);
 exports.validateToy = (_reqBody) => {
   const joiSchema = Joi.object({
     name:Joi.string().min(2).max(99).required(),
-    info:Joi.string().min(0).max(99).required(),
-    category:Joi.string().min(0).max(99).required(),
-    img_url:Joi.string().min(0).max(99).required(),
+    info:Joi.string().min(2).max(99).required(),
+    category:Joi.string().min(2).max(99).required(),
+    img_url: Joi.string().allow("").max(200).optional(),
     price:Joi.number().min(1).max(999).required()
   })
   return joiSchema.validate(_reqBody)
