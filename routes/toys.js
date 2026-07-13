@@ -2,7 +2,6 @@ const express = require("express");
 const { ToyModel, validateToy } = require("../models/toyModel");
 const router = express.Router();
 
-//כל הצעצועים
 router.get("/", async (req, res) => {
   try {
     const data = await ToyModel.find({});
@@ -14,7 +13,6 @@ router.get("/", async (req, res) => {
   }
 });
 
-//חיפוש
 router.get("/search", async (req, res) => {
   try {
     const search = req.query.s;
@@ -38,7 +36,6 @@ router.get("/search", async (req, res) => {
   }
 });
 
-// קטגוריה
 router.get("/category/:catname", async (req, res) => {
   try {
     const catname = req.params.catname;
@@ -55,7 +52,6 @@ router.get("/category/:catname", async (req, res) => {
   }
 });
 
-//לפי ID רשומה אחת
 router.get("/single/:id", async (req, res) => {
   try {
     const id = req.params.id;
