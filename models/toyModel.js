@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-// ספרייה שעושה וולדזציה למידע שמגיע מהבאדי
 const Joi = require("joi");
 
 const schema = new mongoose.Schema({
@@ -12,8 +11,7 @@ const schema = new mongoose.Schema({
 
 exports.ToyModel = mongoose.model("toys",schema);
 
-// פונקציה שתקבל באדי ותעשה לו וולדזציה לפי הסכמה
-// המפורטת שנכניס
+
 exports.validateToy = (_reqBody) => {
   const joiSchema = Joi.object({
     name:Joi.string().min(2).max(99).required(),
